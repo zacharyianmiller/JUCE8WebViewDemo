@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/build/cmake_install.cmake",
+		"/Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/build/libs/juce/cmake_install.cmake",
+		"/Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/build/libs/juce/modules/cmake_install.cmake",
+		"/Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/build/libs/juce/extras/Build/cmake_install.cmake",
+		"/Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/build/libs/juce/extras/Build/juceaide/cmake_install.cmake",
+		"/Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/build/plugin/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
