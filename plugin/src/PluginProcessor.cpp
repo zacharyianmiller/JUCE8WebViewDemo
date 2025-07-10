@@ -1,7 +1,5 @@
-#include "JUCE8WebViewPluginDemo/PluginProcessor.h"
-#include "JUCE8WebViewPluginDemo/PluginEditor.h"
-
-namespace JUCEWebViewUtils {
+#include "../include/JUCE8WebViewPluginDemo/PluginProcessor.h"
+#include "../include/JUCE8WebViewPluginDemo/PluginEditor.h"
 
 //==============================================================================
 AudioPluginAudioProcessor::AudioPluginAudioProcessor()
@@ -23,7 +21,7 @@ AudioPluginAudioProcessor::~AudioPluginAudioProcessor()
 //==============================================================================
 const juce::String AudioPluginAudioProcessor::getName() const
 {
-    return JucePlugin_Name;
+    return juce::String("JUCE8WebViewPluginDemo");
 }
 
 bool AudioPluginAudioProcessor::acceptsMidi() const
@@ -150,8 +148,6 @@ void AudioPluginAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer,
     for (int channel = 0; channel < totalNumInputChannels; ++channel)
     {
         auto* channelData = buffer.getWritePointer (channel);
-        juce::ignoreUnused (channelData);
-        // ..do something to the data...
     }
 }
 
@@ -182,11 +178,9 @@ void AudioPluginAudioProcessor::setStateInformation (const void* data, int sizeI
     juce::ignoreUnused (data, sizeInBytes);
 }
 
-} // namespace JUCEWebViewUtils
-
 //==============================================================================
 // This creates new instances of the plugin..
 juce::AudioProcessor* JUCE_CALLTYPE createPluginFilter()
 {
-    return new JUCEWebViewUtils::AudioPluginAudioProcessor();
+    return new AudioPluginAudioProcessor();
 }

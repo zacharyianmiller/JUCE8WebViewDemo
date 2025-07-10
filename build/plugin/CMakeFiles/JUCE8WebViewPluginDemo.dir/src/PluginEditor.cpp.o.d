@@ -1,6 +1,6 @@
 plugin/CMakeFiles/JUCE8WebViewPluginDemo.dir/src/PluginEditor.cpp.o: \
   /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/plugin/src/PluginEditor.cpp \
-  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/plugin/include/JUCE8WebViewPluginDemo/PluginProcessor.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/plugin/src/../include/JUCE8WebViewPluginDemo/PluginProcessor.h \
   /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_processors/juce_audio_processors.h \
   /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_gui_basics/juce_gui_basics.h \
   /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_graphics/juce_graphics.h \
@@ -1471,4 +1471,46 @@ plugin/CMakeFiles/JUCE8WebViewPluginDemo.dir/src/PluginEditor.cpp.o: \
   /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_processors/utilities/juce_PluginHostType.h \
   /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_processors/utilities/ARA/juce_ARADebug.h \
   /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_processors/utilities/ARA/juce_ARA_utils.h \
-  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/plugin/include/JUCE8WebViewPluginDemo/PluginEditor.h
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_utils/juce_audio_utils.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_devices/juce_audio_devices.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_devices/midi_io/juce_MidiDevices.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_devices/midi_io/juce_MidiMessageCollector.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_devices/audio_io/juce_AudioIODevice.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_devices/audio_io/juce_AudioIODeviceType.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_devices/audio_io/juce_SystemAudioVolume.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_devices/sources/juce_AudioSourcePlayer.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_devices/sources/juce_AudioTransportSource.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_devices/audio_io/juce_AudioDeviceManager.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_formats/juce_audio_formats.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_formats/format/juce_AudioFormatReader.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_formats/format/juce_AudioFormatWriter.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_formats/format/juce_MemoryMappedAudioFormatReader.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_formats/format/juce_AudioFormat.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_formats/format/juce_AudioFormatManager.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_formats/format/juce_AudioFormatReaderSource.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_formats/format/juce_AudioSubsectionReader.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_formats/format/juce_BufferingAudioFormatReader.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_formats/codecs/juce_AiffAudioFormat.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_formats/codecs/juce_CoreAudioFormat.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_formats/codecs/juce_FlacAudioFormat.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_formats/codecs/juce_LAMEEncoderAudioFormat.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_formats/codecs/juce_MP3AudioFormat.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_formats/codecs/juce_OggVorbisAudioFormat.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_formats/codecs/juce_WavAudioFormat.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_formats/codecs/juce_WindowsMediaAudioFormat.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_formats/sampler/juce_Sampler.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_utils/gui/juce_AudioDeviceSelectorComponent.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_utils/gui/juce_AudioThumbnailBase.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_utils/gui/juce_AudioThumbnail.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_utils/gui/juce_AudioThumbnailCache.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_utils/gui/juce_AudioVisualiserComponent.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_utils/gui/juce_KeyboardComponentBase.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_utils/gui/juce_MidiKeyboardComponent.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_utils/gui/juce_MPEKeyboardComponent.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_utils/gui/juce_AudioAppComponent.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_utils/gui/juce_BluetoothMidiDevicePairingDialogue.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_utils/players/juce_SoundPlayer.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_utils/players/juce_AudioProcessorPlayer.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_utils/audio_cd/juce_AudioCDBurner.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/libs/juce/modules/juce_audio_utils/audio_cd/juce_AudioCDReader.h \
+  /Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/plugin/src/../include/JUCE8WebViewPluginDemo/PluginEditor.h

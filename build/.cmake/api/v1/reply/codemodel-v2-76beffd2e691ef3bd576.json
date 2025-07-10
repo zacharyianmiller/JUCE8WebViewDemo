@@ -1,0 +1,195 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "libs/juce",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.juce-05fc3b3fc63b1423acf4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libs/juce"
+				},
+				{
+					"build" : "libs/juce/modules",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.juce.modules-cec2b1729d5c956e0b6a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "libs/juce/modules"
+				},
+				{
+					"build" : "libs/juce/extras/Build",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.juce.extras.Build-440dcfb1b94ed9b14b59.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "libs/juce/extras/Build"
+				},
+				{
+					"build" : "libs/juce/extras/Build/juceaide",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.juce.extras.Build.juceaide-7a0bb235211b1287f241.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "libs/juce/extras/Build/juceaide"
+				},
+				{
+					"build" : "plugin",
+					"jsonFile" : "directory-plugin-7f2c7581176bf684ffda.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "plugin",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						5
+					],
+					"name" : "JUCE8WebViewDemo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "JUCE",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "JUCE8WebViewPluginDemo::@26efe8164589a77d2096",
+					"jsonFile" : "target-JUCE8WebViewPluginDemo-9d7c262893e5d010c3a7.json",
+					"name" : "JUCE8WebViewPluginDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "JUCE8WebViewPluginDemo_AU::@26efe8164589a77d2096",
+					"jsonFile" : "target-JUCE8WebViewPluginDemo_AU-92a39d154cdc6ccfe423.json",
+					"name" : "JUCE8WebViewPluginDemo_AU",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "JUCE8WebViewPluginDemo_All::@26efe8164589a77d2096",
+					"jsonFile" : "target-JUCE8WebViewPluginDemo_All-764f2291b7ae254b5706.json",
+					"name" : "JUCE8WebViewPluginDemo_All",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "JUCE8WebViewPluginDemo_Standalone::@26efe8164589a77d2096",
+					"jsonFile" : "target-JUCE8WebViewPluginDemo_Standalone-7e240cc990a61eafc8d0.json",
+					"name" : "JUCE8WebViewPluginDemo_Standalone",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "JUCE8WebViewPluginDemo_VST3::@26efe8164589a77d2096",
+					"jsonFile" : "target-JUCE8WebViewPluginDemo_VST3-19dee2381d748b57f772.json",
+					"name" : "JUCE8WebViewPluginDemo_VST3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "juce_vst3_helper::@26efe8164589a77d2096",
+					"jsonFile" : "target-juce_vst3_helper-bb111c66687b22a5461a.json",
+					"name" : "juce_vst3_helper",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo/build",
+		"source" : "/Users/zacharymiller/STL/dsp/jucedemos/JUCE8WebViewDemo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
