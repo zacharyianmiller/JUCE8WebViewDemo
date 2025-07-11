@@ -5,15 +5,22 @@
 AudioPluginAudioProcessorEditor::AudioPluginAudioProcessorEditor (AudioPluginAudioProcessor& p)
     : AudioProcessorEditor (&p), 
     processorRef (p)
-    // ,webView{juce::WebBrowserComponent::Options{}}
+#ifdef WIN32
+    ,webView(juce::WebBrowserComponent::Options{}
+        .withBackend(juce::WebBrowserComponent::Options::Backend::webview2)
+        .withWinWebView2Options(juce::WebBrowserComponent::Options::WinWebView2{}
+        .withUserDataFolder(juce::File::getSpecialLocation(juce::File::tempDirectory)))
+    )
+#endif
 {
     juce::ignoreUnused (processorRef);
 
-    // addAndMakeVisible(webView);
+    addAndMakeVisible(webView);
     
-    // Make sure that before the constructor has finished, you've set the
-    // editor's size to whatever you need it to be.
-    setSize (400, 300);
+    webView.goToURL("https://juce.com");
+
+    setResizable(true, true);
+    setSize (800, 600);
 }
 
 AudioPluginAudioProcessorEditor::~AudioPluginAudioProcessorEditor()
@@ -22,5 +29,5 @@ AudioPluginAudioProcessorEditor::~AudioPluginAudioProcessorEditor()
 
 void AudioPluginAudioProcessorEditor::resized()
 {   
-    // webView.setBounds(getLocalBounds());
+    webView.setBounds(getLocalBounds());
 }

@@ -13,6 +13,9 @@ juce_add_plugin(JUCE8WebViewPluginDemo
         juce_audio_devices 
         juce_audio_processors
         juce_audio_utils
+    
+    # Foce JUCE to look for WebView2 on local OS
+    NEEDS_WEBVIEW2 TRUE
 )
 
 target_sources(JUCE8WebViewPluginDemo
@@ -34,4 +37,5 @@ target_compile_definitions(JUCE8WebViewPluginDemo
     PUBLIC
         JUCE_WEB_BROWSER=1
         JUCE_USE_CURL=0
-        JUCE_VST3_CAN_REPLACE_VST2=0)
+        JUCE_VST3_CAN_REPLACE_VST2=0
+        JUCE_USE_WIN_WEBVIEW2_WITH_STATIC_LINKING=1) # can also be dynamic

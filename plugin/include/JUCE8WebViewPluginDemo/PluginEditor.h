@@ -5,8 +5,6 @@
 #include <juce_gui_basics/juce_gui_basics.h>
 #include <juce_gui_extra/juce_gui_extra.h>
 
-// #include <juce_WebBrowserComponent.h>
-
 //==============================================================================
 class AudioPluginAudioProcessorEditor final : public juce::AudioProcessorEditor
 {
@@ -23,7 +21,7 @@ private:
     // access the processor object that created it.
     AudioPluginAudioProcessor& processorRef;
 
-    // juce::WebBrowserComponent webView;
+    juce::WebBrowserComponent webView;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (AudioPluginAudioProcessorEditor)
 };
